@@ -1,0 +1,162 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Images/Background/CollegeDayBG.png);
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0b7dff9d;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.circle-logo {
+    width: 90px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url(Images/Background/act-logo.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px; /* Adjust spacing between items */
+}
+
+.nav-link {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bolder */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-link:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 20px;
+    padding: 50px;
+    height: 90vh;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.left-section {
+    width: 420px;
+    height: 720px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align items to the start */
+    padding: 10px; 
+}
+
+.left-section {
+    align-items: flex-start; /* Align text to the left */
+}
+
+
+.left-section h2 {
+    color: white
+}
+
+.left-section p {
+    color: #d9d9d9
+}
+
+.portrait-image {
+    width: 400px;
+    height: 619px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px rgba(35, 161, 231, 0.22);
+}
+
+
+.right-section {
+    width: 420px;
+    height: 720px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align items to the start */
+    padding: 10px; 
+    
+}
+
+.right-section h2 {
+    color: white
+}
+
+.right-section p {
+    color: #d9d9d9
+}
+
+.right-section {
+    align-items: flex-end; /* Align text to the right */
+    text-align: right; /* Ensures text is right-aligned */
+}
+
+.portrait-video {
+    width: 400px;
+    height: 659PX;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(35, 161, 231, 0.22);
+}
+
+
+.center-section {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.css-logo {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+   
+}
+
+/* Bottom Section */
+.bottom-section {
+    grid-column: 1 / 4;
+    height: 90px;
+    width: 105%;
+    margin-top: 40px;
+    border: 2px solid #000;
+    background-image: linear-gradient(to top,rgb(0, 47, 255),rgb(0, 89, 255));
+    border-radius: 10px;
+}
+
+.bottom-section h2 {
+    color: white;
+}
+
+.bottom-section p {
+    color: rgb(194, 194, 194);
+}
+
